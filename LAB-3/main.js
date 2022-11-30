@@ -33,7 +33,7 @@
     document.getElementById("div1").innerHTML = name;
 
     $(function () {
-        alert("Hello");
+        ///alert("Hello");
         $("#div1").html("Chinnawat");
 
         $("#bt1").click(function () {
@@ -49,6 +49,7 @@
         });
 
         $("#div_about").load("./pages/about.html");
+        $("#div_action").load("./pages/action.html");
 
     }); //jQuery Handle
 
